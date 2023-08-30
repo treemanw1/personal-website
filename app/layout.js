@@ -8,7 +8,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
 	return (
-		<html lang="en">
+		<html className="overflow-y-scroll" lang="en">
 			<head>
 				<link rel="preconnect" href="https://fonts.googleapis.com"/>
 				<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -16,8 +16,12 @@ export default function RootLayout({ children }) {
 			</head>
 			<body>
 				<main className="m-0 p-0 box-border font-roboto text-black">
-					{/* <Navbar /> */}
-					{children}
+					<div className="flex justify-center bg-gray-100 min-h-screen">
+						<div className='flex flex-col my-[10vh] gap-y-3 w-[36%]'>
+						{children}
+						</div>
+					</div>
+					{/* {children} */}
 				</main>
 			</body>
 		</html>
