@@ -17,16 +17,16 @@ https://nextjs.org/docs/app/building-your-application/rendering/server-component
 ## 30/8/23 Wednesday
 - Data fetching from JSON w/o backend (couldn't use fs because of 'use client' I think) ✓
 - Pause on data fetching stuff for now
+- navbar + title layout/template ✓
 - essay pages ✓
     - individual essay page (don't write the article yet) ✓
 - move divs into parent layout/pages for ease of editing ✓
 - book page ✓
 
-## 30/8/23 Wednesday
+## 1/9/23 Friday
+- 
 - darkmode
-- essays search
-
-
-- navbar + title layout/template
 - responsiveness
 - deploy
+
+- essays search

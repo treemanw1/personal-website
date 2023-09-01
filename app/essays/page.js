@@ -23,10 +23,19 @@ const essays = [
 export default function Essays() {
 
 	return (
-		<div className="flex flex-col gap-y-3">
-			{essays.map((data) => {
-				return <EssaySection data={data} />;
-			})}
+		<div className='flex flex-col w-[65%] gap-y-5 bg-blue-30 text-lg mt-2 pb-[10vh] leading-tight'>
+			<p>
+				Thoughts on a variety of random subjects.
+			</p>
+			<div className="grid grid-cols-3 grid-flow-row gap-4">
+				<div className="bg-gray-300 aspect-square"></div>
+				<div className="bg-gray-300 aspect-square"></div>
+				<div className="bg-gray-300 aspect-square"></div>
+				<div className="bg-gray-300 aspect-square"></div>
+				<div className="bg-gray-300 aspect-square"></div>
+				<div className="bg-gray-300 aspect-square"></div>
+			</div>
 		</div>
+
 	);
 }

@@ -1,5 +1,6 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
+import Navbar from './components/Navbar';
 
 export const metadata = {
 	title: "Wee's World",
@@ -15,10 +16,11 @@ export default function RootLayout({ children }) {
 				<link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;600&family=Press+Start+2P&family=Roboto&display=swap" rel="stylesheet"/>
 			</head>
 			<body>
-				<main className="m-0 p-0 box-border font-roboto text-black">
-					<div className="flex justify-center bg-gray-100 min-h-screen">
-						<div className='flex flex-col my-[10vh] gap-y-3 w-[36%]'>
-						{children}
+				<main className="m-0 p-0 box-border font-roboto text-black bg-gray-100">
+					<div className="flex flex-col min-h-screen bg-green">
+						<Navbar/>
+						<div className="flex flex-1 justify-center bg-blue h-full w-full">
+							{children}
 						</div>
 					</div>
 					{/* {children} */}
