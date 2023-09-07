@@ -53,3 +53,4 @@ https://nextjs.org/docs/app/building-your-application/rendering/server-component
     - name
     - date
 - change Resume download to view
+- mobile responsiveness landscape view
