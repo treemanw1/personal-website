@@ -1,6 +1,5 @@
 'use client'
 
-import Navbar from './components/Navbar';
 import CurrentTime from './components/CurrentTime';
 
 export default function Home() {
