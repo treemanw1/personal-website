@@ -45,7 +45,7 @@ export default function Essays() {
 				<div className="grid grid-cols-1 gap-y-4 ">
 					{essays.map(e => {
 						return (
-							<EssaySection data={e}></EssaySection>
+							<EssaySection key={e.title} data={e}></EssaySection>
 						)
 					})}
 				</div>
