@@ -21,4 +21,5 @@ module.exports = {
 		fill: ['hover', 'focus'],
 	},
 	plugins: [require("@tailwindcss/typography")],
+	darkMode: 'class'
 };

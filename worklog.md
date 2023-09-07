@@ -24,9 +24,32 @@ https://nextjs.org/docs/app/building-your-application/rendering/server-component
 - book page ✓
 
 ## 1/9/23 Friday
-- 
-- darkmode
-- responsiveness
-- deploy
+- removed header ✓
+- shifted navbar ✓
+- edited about page ✓
+- edited essays page ✓
 
-- essays search
+## 6/9/23 Wednesday
+- essays page ✓
+- essay page (date) ✓
+- darkmode (next-themes) ✓
+- responsiveness: home, about pages ✓
+
+## 7/9/23 Thursday
+- responsiveness
+    - essays ✓
+    - essay pages ✓
+- fix Resume hover ✓
+- LinkedIn Link ✓
+- Deploy
+
+## After Deployment
+- speed
+- MoonIcon positioning
+- book page
+- projects page
+- essays page search by
+    - topic
+    - name
+    - date
+- change Resume download to view
