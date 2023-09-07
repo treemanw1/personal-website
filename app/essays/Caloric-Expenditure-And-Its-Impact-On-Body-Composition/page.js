@@ -21,7 +21,7 @@ export default function Page() {
 				<img src="/images/jones_weight.jpg" alt="Jon Jones LHW vs HW" />
 				<div className="flex flex-col gap-y-2 mt-2">
 					<p>
-						&nbsp;&nbsp;&nbsp;&nbsp;One question I've had about body
+						&nbsp;&nbsp;&nbsp;&nbsp;One question I&apos;ve had about body
 						composition for a while is about how it varies with activity
 						level while eating at maintenance calories.
 					</p>
@@ -44,7 +44,7 @@ export default function Page() {
 				<img src="/images/jones_weight.jpg" alt="Jon Jones LHW vs HW" />
 				<div className="flex flex-col gap-y-2 mt-2">
 					<p>
-						&nbsp;&nbsp;&nbsp;&nbsp;One question I've had about body
+						&nbsp;&nbsp;&nbsp;&nbsp;One question I&apos;ve had about body
 						composition for a while is about how it varies with activity
 						level while eating at maintenance calories.
 					</p>
