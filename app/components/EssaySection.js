@@ -1,11 +1,11 @@
 import React from "react";
 import Link from "next/link";
 
-export default function EssaySection({data}) {
+export default function EssaySection({key, data}) {
     
 	return (
         <>
-            <div className="portrait:hidden flex h-[25vh] gap-x-5 bg-pink-30 ">
+            <div key={key} className="portrait:hidden flex h-[25vh] gap-x-5 bg-pink-30 ">
                 <img src={data.img_src} className='h-[25vh]'/>
                 <div className="flex flex-col justify-between ">
                     <Link
@@ -37,7 +37,7 @@ export default function EssaySection({data}) {
                 </p>
                 <div className="bg-gray-300 dark:bg-gray-700 px-3 py-1 my-2 w-fit rounded-full">{data.topic}</div>
             </div> */}
-            <div className="landscape:hidden flex gap-x-3 w-full aspect-[2.85/1]">
+            <div key={key} className="landscape:hidden flex gap-x-3 w-full aspect-[2.85/1]">
                 <div className="bg-blue-40 aspect-square">
                     <img src={data.img_src} className=''/>
                 </div>
