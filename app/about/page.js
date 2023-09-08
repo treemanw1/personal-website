@@ -45,7 +45,7 @@ export default function About() {
 					<img className="w-[60%] grayscale" src='/images/passport.jpg'></img>
 					<div className="flex flex-col text-right">
 						<p className="font-semibold">LINKS</p>
-						<a className="hover:text-gray-500" href="/Resume_Wee_Neville.docx" download="Resume_Wee_Neville.docx">Resume</a>
+						<a className="hover:text-gray-500" target="_blank" href="/resume_WeeNeville.docx">Resume</a>
 						<a className="hover:text-gray-500" target="_blank" href="https://www.instagram.com/nevillle_">Instagram</a>
 						<a className="hover:text-gray-500" target="_blank" href="https://github.com/treemanw1">GitHub</a>
 						<a className="hover:text-gray-500" target="_blank" href="https://www.linkedin.com/in/weeneville/">LinkedIn</a>
@@ -94,7 +94,7 @@ export default function About() {
 					<img className="w-[60%] grayscale" src='/images/passport.jpg'></img>
 					<div className="flex flex-col text-right">
 						<p className="font-semibold">LINKS</p>
-						<a className="hover:text-gray-500" href="/Resume_Wee_Neville.docx" download="Resume_Wee_Neville.docx" class="btn">Resume</a>
+						<a className="hover:text-gray-500" href="/resume_WeeNeville.docx" download="resume_WeeNeville.docx" class="btn">Resume</a>
 						<a className="hover:text-gray-500" target="_blank" href="https://www.instagram.com/nevillle_">Instagram</a>
 						<a className="hover:text-gray-500" target="_blank" href="https://github.com/treemanw1">GitHub</a>
 						<a className="hover:text-gray-500" target="_blank" href="https://www.linkedin.com/in/weeneville/">LinkedIn</a>

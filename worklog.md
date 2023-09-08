@@ -41,16 +41,22 @@ https://nextjs.org/docs/app/building-your-application/rendering/server-component
     - essay pages ✓
 - fix Resume hover ✓
 - LinkedIn Link ✓
-- Deploy
+- Deploy ✓
 
-## After Deployment
-- speed
-- MoonIcon positioning
+## 8/9/23 Friday
+- change site/domain name ✓
+- remove essays ✓
+- updated Resume ✓
+
+- fix all build warnings (img tag)
+- mobile responsiveness landscape view
+
+- update Resume
+- write an Essay
 - book page
 - projects page
 - essays page search by
     - topic
     - name
     - date
-- change Resume download to view
-- mobile responsiveness landscape view
+
